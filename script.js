@@ -62,11 +62,11 @@
 //         alert('c is max');
 //     } else {
 //         alert('b is max');
-//     }
+//     };
 // } else if (c > a) {
 //     alert('c is max');
 // } else {
-//     alert('a is max');1
+//     alert('a is max');
 // };
 
 // 11.
@@ -100,11 +100,11 @@
 //     if (aVal < bVal) {
 //         for (aVal; aVal <= bVal; aVal++) {
 //             document.write(aVal + '<br>');
-//         }
+//         };
 //     } else if (aVal > bVal) {
 //         for (aVal; aVal >= bVal; aVal--) {
 //             document.write(aVal + '<br>');
-//         }
+//         };
 //     } else {
 //         document.write(aVal + '<br>');
 //         document.write(bVal + '<br>');
@@ -255,7 +255,6 @@
 //         if (arr[i] == minEven) {
 //             minIndex.push(i);
 //             arr.splice(i,1);
-//             document.write(arr + '<br>');
 //             break;
 //         };
 //     }
