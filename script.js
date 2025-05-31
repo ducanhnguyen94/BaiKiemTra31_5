@@ -5,9 +5,9 @@
     - Boolen: 
         - Falsy: giá trị rỗng, 0, false, null, undefined, NaN
         - Truthy: true
-    - String: '1234', 'I love you chucamo'
-    - Null
-    - Undefined
+    - String: '1234abc', 'I love you chucamo'
+    - Null: dữ liệu rỗng
+    - Undefined: dữ liệu không xác định, không có thực
 3. Cách quy định kiểu dữ liệu cho một biến là dùng dấu '=' để gán kiểu dữ liệu cho biến đó.
 4. Có 4 cách để thể hiện chữ 'Hello' ra từ JS:
     1- alert('Hello');
