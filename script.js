@@ -38,7 +38,7 @@
 // 8.
 // let age = +prompt('Nhập tuổi');
 // if (age >= 18) {
-//     alert('Đủ tuổi');22
+//     alert('Đủ tuổi');
 // };
 
 // 9.
