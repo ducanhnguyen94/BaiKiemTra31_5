@@ -236,25 +236,25 @@
 
 // 21 - 22
 
-21.
-let evenArr = [];
-arr.forEach(el => {
-    if (el % 2 == 0) {
-        evenArr.push(el);
-    }
-});
-evenArr.sort((a,b) => a - b);
-let minEven = evenArr[0];
-console.log(minEven);
+// 21.
+// let evenArr = [];
+// arr.forEach(el => {
+//     if (el % 2 == 0) {
+//         evenArr.push(el);
+//     }
+// });
+// evenArr.sort((a,b) => a - b);
+// let minEven = evenArr[0];
+// console.log(minEven);
 
 // 22.
-let minIndex = [];
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] == minEven) {
-        minIndex.push(i);
-    };
-};
+// let minIndex = [];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == minEven) {
+//         minIndex.push(i);
+//     };
+// };
 
-console.log(minIndex);
+// console.log(minIndex);
 
 
