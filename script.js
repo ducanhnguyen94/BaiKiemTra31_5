@@ -11,8 +11,8 @@
 3. Cách quy định kiểu dữ liệu cho một biến là dùng dấu '=' để gán kiểu dữ liệu cho biến đó.
 4. Có 4 cách để thể hiện chữ 'Hello' ra từ JS:
     1- alert('Hello');
-    2- console.log('Hello');
-    3- console.log('Hello');
+    2- document.write('Hello');
+    3- document.write('Hello');
     4- <tagname>.innerHTML = 'Hello';
 5. Các cách nhập vào biến với JS:
     1- let a = 'Hello';
@@ -23,16 +23,16 @@
 // 6. 
 // const btn = document.getElementById('button');
 // btn.addEventListener('click', () => {
-//     console.log('<h1>Day la the h1</h1> <br>');
-//     console.log('<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvkfVc3qX1xVVO0Yu5Vi9L_v5aGy_tZon8uORJ9fetFaOTzdxsavRWhNAnZ2-yhcI2l045q1pM0zKrdInDEZQUow" alt="MTP"><br>')
-//     console.log('<a href="https://james.codegym.vn/login/index.php" target="_blank">abc</a>');
+//     document.write('<h1>Day la the h1</h1> <br>');
+//     document.write('<img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvkfVc3qX1xVVO0Yu5Vi9L_v5aGy_tZon8uORJ9fetFaOTzdxsavRWhNAnZ2-yhcI2l045q1pM0zKrdInDEZQUow" alt="MTP"><br>')
+//     document.write('<a href="https://james.codegym.vn/login/index.php" target="_blank">abc</a>');
 // });
 
 // 7.
 // const btn = document.getElementById('button');
 // let link = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvkfVc3qX1xVVO0Yu5Vi9L_v5aGy_tZon8uORJ9fetFaOTzdxsavRWhNAnZ2-yhcI2l045q1pM0zKrdInDEZQUow";
 // btn.addEventListener('click', () => {
-//     console.log(`<a href=${link} target="_blank"><img src=${link} alt="MTP"></a>`);
+//     document.write(`<a href=${link} target="_blank"><img src=${link} alt="MTP"></a>`);
 // });
 
 // 8.
@@ -73,9 +73,9 @@
 // let i = 0;
 // while (i < 100) {
 //     if (i % 2 == 0) {
-//         console.log('<h1>Hi</h1>');
+//         document.write('<h1>Hi</h1>');
 //     } else {
-//         console.log('<p>Hello</p>')
+//         document.write('<p>Hello</p>')
 //     };
 //     i++;
 // };
@@ -83,7 +83,7 @@
 // 12.
 // let n = +prompt('Nhap N');
 // for (let i = 0; i < n; i++) {
-//     console.log('Hello' + i + '<br>');
+//     document.write('Hello' + i + '<br>');
 // }
 
 // 13 - 14
@@ -99,15 +99,15 @@
 
 //     if (aVal < bVal) {
 //         for (aVal; aVal <= bVal; aVal++) {
-//             console.log(aVal + '<br>');
+//             document.write(aVal + '<br>');
 //         };
 //     } else if (aVal > bVal) {
 //         for (aVal; aVal >= bVal; aVal--) {
-//             console.log(aVal + '<br>');
+//             document.write(aVal + '<br>');
 //         };
 //     } else {
-//         console.log(aVal + '<br>');
-//         console.log(bVal + '<br>');
+//         document.write(aVal + '<br>');
+//         document.write(bVal + '<br>');
 //     }
 // });
 
@@ -119,26 +119,26 @@
 //     if (aVal < bVal) {
 //         for (aVal; aVal <= bVal; aVal++) {
 //             if (aVal % 2 == 0) {
-//                 console.log(`<h2>${aVal}</h2>`);
+//                 document.write(`<h2>${aVal}</h2>`);
 //             } else {
-//                 console.log(`<h1>${aVal}</h1>`);
+//                 document.write(`<h1>${aVal}</h1>`);
 //             };
 //         };
 //     } else if (aVal > bVal) {
 //         for (aVal; aVal >= bVal; aVal--) {
 //             if (aVal % 2 == 0) {
-//                 console.log(`<h2>${aVal}</h2>`);
+//                 document.write(`<h2>${aVal}</h2>`);
 //             } else {
-//                 console.log(`<h1>${aVal}</h1>`);
+//                 document.write(`<h1>${aVal}</h1>`);
 //             };
 //         };
 //     } else {
 //         if (aVal % 2 == 0) {
-//                 console.log(`<h2>${aVal}</h2>`);
-//                 console.log(`<h2>${aVal}</h2>`);
+//                 document.write(`<h2>${aVal}</h2>`);
+//                 document.write(`<h2>${aVal}</h2>`);
 //             } else {
-//                 console.log(`<h1>${aVal}</h1>`);
-//                 console.log(`<h1>${aVal}</h1>`);
+//                 document.write(`<h1>${aVal}</h1>`);
+//                 document.write(`<h1>${aVal}</h1>`);
 //             };
 //     };
 // });
@@ -155,15 +155,15 @@
 //             sum += aVal;
 //             count++;
 //         };
-//         console.log(sum / count);
+//         document.write(sum / count);
 //     } else if (aVal > bVal) {
 //         for (aVal; aVal >= bVal; aVal--) {
 //             sum += aVal;
 //             count++;
 //         };
-//         console.log(sum / count);
+//         document.write(sum / count);
 //     } else {
-//         console.log(aVal + '<br>');
+//         document.write(aVal + '<br>');
 //     };  
 // });
 
@@ -176,9 +176,9 @@
 // 16.
 // arr.forEach(el => {
 //     if (el % 2 == 0) {
-//         console.log(`<h2>${el}</h2>`);
+//         document.write(`<h2>${el}</h2>`);
 //     } else {
-//         console.log(`<h1>${el}</h1>`);
+//         document.write(`<h1>${el}</h1>`);
 //     }
 // });
 
@@ -189,7 +189,7 @@
 //         count++;
 //     }
 // });
-// console.log(sum / count);
+// document.write(sum / count);
 
 // 18.
 // arr.forEach(el => {   
@@ -208,14 +208,14 @@
 //         };
 //     };
 // });
-// console.log(count);
+// document.write(count);
 
 // 19.
 // let a = +prompt('Nhap a');
 // if (arr.includes(a)) {
-//     console.log(arr.indexOf(a));
+//     document.write(arr.indexOf(a));
 // } else {
-//     console.log(a + ' khong co trong mang');
+//     document.write(a + ' khong co trong mang');
 // };
 
 // 20.
@@ -229,9 +229,9 @@
 
 // newArr.sort((a,b) => a - b);
 // if (newArr.length > 1) {
-//     console.log(newArr[newArr.length - 2]);
+//     document.write(newArr[newArr.length - 2]);
 // } else {
-//     console.log('Khong co so lon thu hai');
+//     document.write('Khong co so lon thu hai');
 // };
 
 // 21 - 22
@@ -245,7 +245,7 @@
 // });
 // evenArr.sort((a,b) => a - b);
 // let minEven = evenArr[0];
-// console.log(minEven);
+// document.write(minEven);
 
 // 22.
 // let minIndex = [];
@@ -255,6 +255,6 @@
 //     };
 // };
 
-// console.log(minIndex);
+// document.write(minIndex);
 
 
